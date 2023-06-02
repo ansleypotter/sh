@@ -1,0 +1,298 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2639
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red180\green36\blue25;\red47\green180\blue29;
+\red159\green160\blue28;}
+{\*\expandedcolortbl;;\csgray\c0;\cssrgb\c76411\c21697\c12527;\cssrgb\c20241\c73898\c14950;
+\cssrgb\c68469\c68012\c14211;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs22 \cf2 \CocoaLigature0 Last login: Tue May 30 16:14:48 on console\
+ansleypotter@Ansleys-MacBook-Air ~ % git --version\
+git version 2.37.0 (Apple Git-136)\
+ansleypotter@Ansleys-MacBook-Air ~ % cd desktop\
+ansleypotter@Ansleys-MacBook-Air desktop % cd "PDP summer"\
+ansleypotter@Ansleys-MacBook-Air PDP summer % git clone https://github.com/dtbenton/PDP2023SummerCourseMaterials\
+Cloning into 'PDP2023SummerCourseMaterials'...\
+Username for 'https://github.com': ansleypotter\
+Password for 'https://ansleypotter@github.com': \
+remote: Support for password authentication was removed on August 13, 2021.\
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.\
+fatal: Authentication failed for 'https://github.com/dtbenton/PDP2023SummerCourseMaterials/'\
+ansleypotter@Ansleys-MacBook-Air PDP summer % git clone https://github.com/dtbenton/PDP2023SummerCourseMaterials\
+Cloning into 'PDP2023SummerCourseMaterials'...\
+Username for 'https://github.com': ansleypotter\
+Password for 'https://ansleypotter@github.com': \
+remote: Enumerating objects: 45, done.\
+remote: Counting objects: 100% (10/10), done.\
+remote: Compressing objects: 100% (8/8), done.\
+remote: Total 45 (delta 0), reused 9 (delta 0), pack-reused 35\
+Receiving objects: 100% (45/45), 79.65 MiB | 29.81 MiB/s, done.\
+ansleypotter@Ansleys-MacBook-Air PDP summer % ls\
+PDP2023SummerCourseMaterials\
+ansleypotter@Ansleys-MacBook-Air PDP summer % git clone https://github.com/dtbenton/ansleyPotter5fHHy\
+Cloning into 'ansleyPotter5fHHy'...\
+remote: Enumerating objects: 5, done.\
+remote: Counting objects: 100% (5/5), done.\
+remote: Compressing objects: 100% (3/3), done.\
+remote: Total 5 (delta 0), reused 5 (delta 0), pack-reused 0\
+Receiving objects: 100% (5/5), done.\
+ansleypotter@Ansleys-MacBook-Air PDP summer % ls\
+PDP2023SummerCourseMaterials	ansleyPotter5fHHy\
+ansleypotter@Ansleys-MacBook-Air PDP summer % cd ansleyPotter5fHHy \
+ansleypotter@Ansleys-MacBook-Air ansleyPotter5fHHy % git status    \
+On branch main\
+Your branch is up to date with 'origin/main'.\
+\
+Untracked files:\
+  (use "git add <file>..." to include in what will be committed)\
+	\cf3 .DS_Store\cf2 \
+	\cf3 pdp test.docx\cf2 \
+\
+nothing added to commit but untracked files present (use "git add" to track)\
+ansleypotter@Ansleys-MacBook-Air ansleyPotter5fHHy % git add *\
+ansleypotter@Ansleys-MacBook-Air ansleyPotter5fHHy % git commit -m "initial commit"\
+[main b23ce43] initial commit\
+ Committer: Ansley Potter <ansleypotter@Ansleys-MacBook-Air.local>\
+Your name and email address were configured automatically based\
+on your username and hostname. Please check that they are accurate.\
+You can suppress this message by setting them explicitly. Run the\
+following command and follow the instructions in your editor to edit\
+your configuration file:\
+\
+    git config --global --edit\
+\
+After doing this, you may fix the identity used for this commit with:\
+\
+    git commit --amend --reset-author\
+\
+ 1 file changed, 0 insertions(+), 0 deletions(-)\
+ create mode 100644 pdp test.docx\
+ansleypotter@Ansleys-MacBook-Air ansleyPotter5fHHy % git psuh\
+git: 'psuh' is not a git command. See 'git --help'.\
+\
+The most similar command is\
+	push\
+ansleypotter@Ansleys-MacBook-Air ansleyPotter5fHHy % git push\
+Enumerating objects: 4, done.\
+Counting objects: 100% (4/4), done.\
+Delta compression using up to 8 threads\
+Compressing objects: 100% (3/3), done.\
+Writing objects: 100% (3/3), 9.27 KiB | 9.27 MiB/s, done.\
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0\
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.\
+To https://github.com/dtbenton/ansleyPotter5fHHy\
+   dc8bcfa..b23ce43  main -> main\
+ansleypotter@Ansleys-MacBook-Air ansleyPotter5fHHy % git pull\
+remote: Enumerating objects: 7, done.\
+remote: Counting objects: 100% (7/7), done.\
+remote: Compressing objects: 100% (2/2), done.\
+remote: Total 5 (delta 2), reused 5 (delta 2), pack-reused 0\
+Unpacking objects: 100% (5/5), 542 bytes | 108.00 KiB/s, done.\
+From https://github.com/dtbenton/ansleyPotter5fHHy\
+   b23ce43..20b8ea7  main       -> origin/main\
+Updating b23ce43..20b8ea7\
+Fast-forward\
+ hwfeedback.txt | 1 \cf4 +\cf2 \
+ 1 file changed, 1 insertion(+)\
+ create mode 100644 hwfeedback.txt\
+ansleypotter@Ansleys-MacBook-Air ansleyPotter5fHHy % cd ..\
+ansleypotter@Ansleys-MacBook-Air PDP summer % cd ..\
+ansleypotter@Ansleys-MacBook-Air desktop % cd modeling\\ class\\ 2022/lens\
+ansleypotter@Ansleys-MacBook-Air lens % ls\
+Bin			Manual			TclTk\
+Commands		Obj			bash_profile.txt\
+Examples		README.txt		mydata\
+Makefile		Src			mydata2\
+ansleypotter@Ansleys-MacBook-Air lens % cd examples\
+ansleypotter@Ansleys-MacBook-Air examples % lens encoder.in\
+zsh: command not found: lens\
+ansleypotter@Ansleys-MacBook-Air examples % cd ..\
+ansleypotter@Ansleys-MacBook-Air lens % cd ..\
+ansleypotter@Ansleys-MacBook-Air modeling class 2022 % cd ..\
+ansleypotter@Ansleys-MacBook-Air desktop % mkdir sh\
+ansleypotter@Ansleys-MacBook-Air desktop % cd sh\
+ansleypotter@Ansleys-MacBook-Air sh % ls \
+flyer_community1_cash.png\
+ansleypotter@Ansleys-MacBook-Air sh % git init\
+Initialized empty Git repository in /Users/ansleypotter/Desktop/sh/.git/\
+ansleypotter@Ansleys-MacBook-Air sh % git status\
+On branch main\
+\
+No commits yet\
+\
+Untracked files:\
+  (use "git add <file>..." to include in what will be committed)\
+	\cf3 flyer_community1_cash.png\cf2 \
+\
+nothing added to commit but untracked files present (use "git add" to track)\
+ansleypotter@Ansleys-MacBook-Air sh % git add *\
+ansleypotter@Ansleys-MacBook-Air sh % git commit -m "first commit"\
+git branch -M main\
+git remote add origin https://github.com/ansleypotter/sh.git\
+git push -u origin main\
+[main (root-commit) fa30d4a] first commit\
+ Committer: Ansley Potter <ansleypotter@Ansleys-MacBook-Air.local>\
+Your name and email address were configured automatically based\
+on your username and hostname. Please check that they are accurate.\
+You can suppress this message by setting them explicitly. Run the\
+following command and follow the instructions in your editor to edit\
+your configuration file:\
+\
+    git config --global --edit\
+\
+After doing this, you may fix the identity used for this commit with:\
+\
+    git commit --amend --reset-author\
+\
+ 1 file changed, 0 insertions(+), 0 deletions(-)\
+ create mode 100644 flyer_community1_cash.png\
+remote: Permission to ansleypotter/sh.git denied to dtbenton.\
+fatal: unable to access 'https://github.com/ansleypotter/sh.git/': The requested URL returned error: 403\
+ansleypotter@Ansleys-MacBook-Air sh % git config --global user.name "ansleypotter"\
+ansleypotter@Ansleys-MacBook-Air sh % git status\
+On branch main\
+nothing to commit, working tree clean\
+ansleypotter@Ansleys-MacBook-Air sh % git commit -m "first commit"\
+git branch -M main\
+git remote add origin https://github.com/ansleypotter/sh.git\
+git push -u origin main\
+On branch main\
+nothing to commit, working tree clean\
+error: remote origin already exists.\
+remote: Permission to ansleypotter/sh.git denied to dtbenton.\
+fatal: unable to access 'https://github.com/ansleypotter/sh.git/': The requested URL returned error: 403\
+ansleypotter@Ansleys-MacBook-Air sh % git remote add origin https://github.com/ansleypotter/sh.git\
+git branch -M main\
+git push -u origin main\
+error: remote origin already exists.\
+remote: Permission to ansleypotter/sh.git denied to dtbenton.\
+fatal: unable to access 'https://github.com/ansleypotter/sh.git/': The requested URL returned error: 403\
+ansleypotter@Ansleys-MacBook-Air sh % git config --list\
+credential.helper=osxkeychain\
+init.defaultbranch=main\
+user.name=ansleypotter\
+core.repositoryformatversion=0\
+core.filemode=true\
+core.bare=false\
+core.logallrefupdates=true\
+core.ignorecase=true\
+core.precomposeunicode=true\
+remote.origin.url=https://github.com/ansleypotter/sh.git\
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*\
+ansleypotter@Ansleys-MacBook-Air sh % git commit -m "s"\
+On branch main\
+nothing to commit, working tree clean\
+ansleypotter@Ansleys-MacBook-Air sh % git push\
+fatal: The current branch main has no upstream branch.\
+To push the current branch and set the remote as upstream, use\
+\
+    git push --set-upstream origin main\
+\
+To have this happen automatically for branches without a tracking\
+upstream, see 'push.autoSetupRemote' in 'git help config'.\
+\
+ansleypotter@Ansleys-MacBook-Air sh % git push --set-upstream origin main\
+remote: Permission to ansleypotter/sh.git denied to dtbenton.\
+fatal: unable to access 'https://github.com/ansleypotter/sh.git/': The requested URL returned error: 403\
+ansleypotter@Ansleys-MacBook-Air sh % git remote -v\
+origin	https://github.com/ansleypotter/sh.git (fetch)\
+origin	https://github.com/ansleypotter/sh.git (push)\
+ansleypotter@Ansleys-MacBook-Air sh % git remote add origin https://github.com/ansleypotter/sh.git\
+git branch -M main\
+git push -u origin main\
+error: remote origin already exists.\
+remote: Permission to ansleypotter/sh.git denied to dtbenton.\
+fatal: unable to access 'https://github.com/ansleypotter/sh.git/': The requested URL returned error: 403\
+ansleypotter@Ansleys-MacBook-Air sh % git remote add origin https://github.com/ansleypotter/sh.git\
+git branch -M main\
+git push -u origin main\
+error: remote origin already exists.\
+remote: Permission to ansleypotter/sh.git denied to dtbenton.\
+fatal: unable to access 'https://github.com/ansleypotter/sh.git/': The requested URL returned error: 403\
+ansleypotter@Ansleys-MacBook-Air sh % cd ..\
+ansleypotter@Ansleys-MacBook-Air desktop % cd "pdp summer"\
+ansleypotter@Ansleys-MacBook-Air pdp summer % cd ansleyPotter5fHHy \
+ansleypotter@Ansleys-MacBook-Air ansleyPotter5fHHy % git status\
+On branch main\
+Your branch is up to date with 'origin/main'.\
+\
+Untracked files:\
+  (use "git add <file>..." to include in what will be committed)\
+	\cf3 .DS_Store\cf2 \
+	\cf3 SPRSCA.png\cf2 \
+\
+nothing added to commit but untracked files present (use "git add" to track)\
+ansleypotter@Ansleys-MacBook-Air ansleyPotter5fHHy % git add *\
+ansleypotter@Ansleys-MacBook-Air ansleyPotter5fHHy % git commit -m "image"\
+[main c214c76] image\
+ Committer: ansleypotter <ansleypotter@Ansleys-MacBook-Air.local>\
+Your name and email address were configured automatically based\
+on your username and hostname. Please check that they are accurate.\
+You can suppress this message by setting them explicitly:\
+\
+    git config --global user.name "Your Name"\
+    git config --global user.email you@example.com\
+\
+After doing this, you may fix the identity used for this commit with:\
+\
+    git commit --amend --reset-author\
+\
+ 1 file changed, 0 insertions(+), 0 deletions(-)\
+ create mode 100644 SPRSCA.png\
+ansleypotter@Ansleys-MacBook-Air ansleyPotter5fHHy % git config --global user.name "ansleypotter"\
+ansleypotter@Ansleys-MacBook-Air ansleyPotter5fHHy % git config --global user.email ansley.d.potter@vanderbilt.edu\
+ansleypotter@Ansleys-MacBook-Air ansleyPotter5fHHy % git commit -m "image"\
+On branch main\
+Your branch is ahead of 'origin/main' by 1 commit.\
+  (use "git push" to publish your local commits)\
+\
+Untracked files:\
+  (use "git add <file>..." to include in what will be committed)\
+	\cf3 .DS_Store\cf2 \
+\
+nothing added to commit but untracked files present (use "git add" to track)\
+ansleypotter@Ansleys-MacBook-Air ansleyPotter5fHHy % git add\
+Nothing specified, nothing added.\
+\cf5 hint: Maybe you wanted to say 'git add .'?\cf2 \
+\cf5 hint: Turn this message off by running\cf2 \
+\cf5 hint: "git config advice.addEmptyPathspec false"\cf2 \
+ansleypotter@Ansleys-MacBook-Air ansleyPotter5fHHy % git add *\
+ansleypotter@Ansleys-MacBook-Air ansleyPotter5fHHy % git push\
+Enumerating objects: 4, done.\
+Counting objects: 100% (4/4), done.\
+Delta compression using up to 8 threads\
+Compressing objects: 100% (3/3), done.\
+Writing objects: 100% (3/3), 20.10 KiB | 20.10 MiB/s, done.\
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0\
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.\
+To https://github.com/dtbenton/ansleyPotter5fHHy\
+   20b8ea7..c214c76  main -> main\
+ansleypotter@Ansleys-MacBook-Air ansleyPotter5fHHy % cd ..\
+ansleypotter@Ansleys-MacBook-Air pdp summer % cd ..\
+ansleypotter@Ansleys-MacBook-Air desktop % cd sh\
+ansleypotter@Ansleys-MacBook-Air sh % git status\
+On branch main\
+nothing to commit, working tree clean\
+ansleypotter@Ansleys-MacBook-Air sh % git commit -m "s"\
+On branch main\
+nothing to commit, working tree clean\
+ansleypotter@Ansleys-MacBook-Air sh % git push\
+fatal: The current branch main has no upstream branch.\
+To push the current branch and set the remote as upstream, use\
+\
+    git push --set-upstream origin main\
+\
+To have this happen automatically for branches without a tracking\
+upstream, see 'push.autoSetupRemote' in 'git help config'.\
+\
+ansleypotter@Ansleys-MacBook-Air sh % git push -u origin head\
+remote: Permission to ansleypotter/sh.git denied to dtbenton.\
+fatal: unable to access 'https://github.com/ansleypotter/sh.git/': The requested URL returned error: 403\
+ansleypotter@Ansleys-MacBook-Air sh % git remote add origin https://github.com/ansleypotter/sh.git\
+git branch -M main\
+git push -u origin main\
+error: remote origin already exists.\
+remote: Permission to ansleypotter/sh.git denied to dtbenton.\
+fatal: unable to access 'https://github.com/ansleypotter/sh.git/': The requested URL returned error: 403\
+ansleypotter@Ansleys-MacBook-Air sh % }
